@@ -1,9 +1,6 @@
-
 package com.ra12.projecte1.repository;
-
 import java.security.Timestamp;
 import java.util.List;
-
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
