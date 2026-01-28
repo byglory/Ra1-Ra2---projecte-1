@@ -1,5 +1,7 @@
 package com.ra12.projecte1.service;
 
+import java.security.Timestamp;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Query;
 
@@ -18,7 +20,8 @@ public class filmsService {
     }
 
     int UpdateById (Long Id, String imagePath){
-        return filmsRepository.updateById(Id, imagePath);
+        Timestamp dataUpdated =  
+        return filmsRepository.updateFilm(Id,name,imagePath,dataUpdated)
     }
 
     int addImagePath (String imgPath, Long Id){
