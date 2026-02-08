@@ -1,0 +1,39 @@
+[2026-02-08 22:32:53] INFO - FilmsService - createFilm - Creant nova pel·lícula: Dune: Parte 2
+[2026-02-08 22:32:54] INFO - FilmsService - createFilm - Guardada a BBDD amb ID: 5
+[2026-02-08 22:32:57] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:33:01] INFO - FilmsService - getFilmById - Buscant per ID: 1
+[2026-02-08 22:33:01] ERROR - FilmsService - getFilmById - No s'ha trobat ID: 1
+[2026-02-08 22:35:52] INFO - FilmsService - importFromCsv - Iniciant importació CSV: aaaa.txt
+[2026-02-08 22:35:52] INFO - FilmsService - importFromCsv - Film importat: Pulp Fiction
+[2026-02-08 22:35:52] INFO - FilmsService - importFromCsv - Film importat: El Padrino
+[2026-02-08 22:35:52] INFO - FilmsService - importFromCsv - Film importat: El Caballero Oscuro
+[2026-02-08 22:35:58] ERROR - FilmsService - updateFilm - Intent d'actualitzar ID inexistent: 1
+[2026-02-08 22:36:11] ERROR - FilmsService - updateFilm - Intent d'actualitzar ID inexistent: 1
+[2026-02-08 22:36:23] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:36:40] INFO - FilmsService - getFilmById - Buscant per ID: 5
+[2026-02-08 22:37:35] INFO - FilmsService - deleteAllFilms - Eliminats 4 registres.
+[2026-02-08 22:37:41] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:37:44] INFO - FilmsService - createFilm - Creant nova pel·lícula: Dune: Parte 2
+[2026-02-08 22:37:44] INFO - FilmsService - createFilm - Guardada a BBDD amb ID: 9
+[2026-02-08 22:37:47] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:38:19] INFO - FilmsService - deleteAllFilms - Eliminats 1 registres.
+[2026-02-08 22:38:31] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:38:56] INFO - FilmsService - deleteAllFilms - Eliminats 0 registres.
+[2026-02-08 22:42:28] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:42:32] INFO - FilmsService - createFilm - Creant nova pel·lícula: Dune: Parte 2
+[2026-02-08 22:42:32] INFO - FilmsService - createFilm - Guardada a BBDD amb ID: 10
+[2026-02-08 22:42:36] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:42:43] INFO - FilmsService - getFilmById - Buscant per ID: 10
+[2026-02-08 22:42:51] INFO - FilmsService - importFromCsv - Iniciant importació CSV: aaaa.txt
+[2026-02-08 22:42:51] INFO - FilmsService - importFromCsv - Film importat: Pulp Fiction
+[2026-02-08 22:42:51] INFO - FilmsService - importFromCsv - Film importat: El Padrino
+[2026-02-08 22:42:51] INFO - FilmsService - importFromCsv - Film importat: El Caballero Oscuro
+[2026-02-08 22:42:55] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:43:07] INFO - FilmsService - updateFilm - Actualitzat correctament ID: 10
+[2026-02-08 22:43:13] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:43:24] INFO - FilmsService - uploadImage - Imatge pujada correctament per a ID: 10
+[2026-02-08 22:43:29] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:43:36] INFO - FilmsService - deleteFilmById - Eliminat ID: 10
+[2026-02-08 22:43:42] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
+[2026-02-08 22:43:48] INFO - FilmsService - deleteAllFilms - Eliminats 3 registres.
+[2026-02-08 22:43:52] INFO - FilmsService - getAllFilms - Consultant totes les pel·lícules
