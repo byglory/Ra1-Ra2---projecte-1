@@ -1,21 +1,28 @@
-package com.ra12.projecte1.logging; // Assegura't que coincideix amb la teva estructura
+package com.ra12.projecte1.logging;
 
-import org.springframework.stereotype.Component;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import org.springframework.stereotype.Component;
+
+/**
+ * Component personalitzat per a la gestió de Logs en fitxers.
+ * Crea un fitxer diari i registra esdeveniments INFO i ERROR.
+ */
 @Component
-public class filmsLogging {
+public class CustomLogging {
 
     private static final String LOGS_DIR = "logs";
     private static final String LOG_FILE_PREFIX = "aplicacio-";
     private static final String LOG_FILE_EXTENSION = ".log";
-    
     private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     public void info(String classe, String method, String description) {
@@ -50,10 +57,8 @@ public class filmsLogging {
             String entradaLog = String.format("[%s] %s - %s - %s - %s", timeStamp, nivell, classe, method, description);
             
             writer.write(entradaLog);
-            writer.newLine(); 
-            
-            // També ho mostrem per consola per facilitar el desenvolupament
-            System.out.println(entradaLog);
+            writer.newLine();
+            System.out.println(entradaLog); // Mostrem també per consola
             
         } catch (Exception e) {
             System.err.println("Error escrivint al log: " + e.getMessage());
