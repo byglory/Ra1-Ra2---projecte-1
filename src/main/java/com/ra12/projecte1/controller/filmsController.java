@@ -52,9 +52,9 @@ public class filmsController {
     }
 
     // [d2] Delete per ID (DELETE /{id})
-    @DeleteMapping("/{id}") // [cite: 111]
-    public String deleteFilm(@PathVariable Long id) { // [cite: 112]
-        boolean deleted = filmsService.deleteFilmById(id); // [cite: 113]
+    @DeleteMapping("/{id}")
+    public String deleteFilm(@PathVariable Long id) {
+        boolean deleted = filmsService.deleteFilmById(id);
         if (deleted) {
             return "Pel·lícula eliminada correctament.";
         } else {
